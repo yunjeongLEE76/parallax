@@ -55,23 +55,23 @@ header.fixed .headerWrap h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
   background: black url(../images/bg.jpg) center center / cover no-repeat;
 }
-/* .dimd {
+
+.dimd {
   position: absolute;
   width: 100%;
   height: inherit;
   background-color: rgba(0, 0, 0, 0.4);
-} */
+}
 
-.coverWrap:after {
+/* .coverWrap:after {
   content: "";
   position: absolute;
   width: 100%;
   height: inherit;
   background-color: rgba(0, 0, 0, 0.4);
-}
+} */
 
 .coverTitle {
   position: relative;
@@ -88,7 +88,6 @@ header.fixed .headerWrap h1 {
 
 .contWrap {
   position: relative;
-  margin-top: 400px;
   z-index: 1000;
   background-color: #fff;
 }
